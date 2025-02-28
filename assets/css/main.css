@@ -1236,8 +1236,12 @@ section,
 
 .services .service-item:hover {
   transform: translateY(-10px);
+  background-color: #212A31;
+  color: var(--background-color);
 }
-
+.services .service-item:hover .icon i{
+  color: var(--background-color);
+}
 .services .service-item:hover h4 a {
   color: var(--accent-color);
 }
