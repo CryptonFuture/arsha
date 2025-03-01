@@ -2579,7 +2579,8 @@ section,
   line-height: 1.2;
   margin-bottom: 2rem;
   font-weight: 700;
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  color: var(--default-color);
 }
 
 @media (max-width: 768px) {
