@@ -3575,3 +3575,143 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
+/* About Section Styling */
+.about-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Adjust gap if needed */
+}
+.about-content #image{
+  height: 850px;
+  padding-top: 50px;
+}
+
+.about-image {
+  flex: 1;
+  text-align: left;
+  overflow: hidden; /* Hide overflow caused by larger image */
+}
+
+.about-image img {
+  max-width: 600%
+  ; /* Increase this value to make the image larger */
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  
+}
+
+.about-text {
+  flex: 1;
+}
+
+
+
+/* .about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  color: #333;
+  align-items: flex-start;
+} */
+
+.company .tagline {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.company  .highlight {
+  color: #2575fc;
+  font-weight: 600;
+}
+
+.mission, .story, .values {
+  margin-bottom: 30px;
+}
+
+.mission h3, .story h3, .values h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.mission p, .story p, .values ul {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.values ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.values ul li {
+  margin-bottom: 10px;
+}
+
+.values ul li strong {
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 100%; /* Reset to 100% for mobile */
+  }
+
+  .about-section h2 {
+    font-size: 2rem;
+  }
+
+  .about-section .tagline {
+    font-size: 1.1rem;
+  }
+}
+.about-image #img{
+  height: auto;
+  width: 100%;
+}
+.about-section #about-us{
+  margin-top: 190px;
+}
+
+
+
+
