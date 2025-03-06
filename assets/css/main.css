@@ -1011,7 +1011,7 @@ section,
   transition: 0.3s;
 }
 
-.about .read-more:hover {
+.read-more span :hover {
   background: var(--accent-color);
   color: var(--contrast-color);
 }
@@ -1019,7 +1019,24 @@ section,
 .about .read-more:hover i {
   transform: translate(5px, 0);
 }
-
+.readmore span{
+  color: var(--accent-color);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 28px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--accent-color);
+}
+.readmore span:hover{
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
 /*--------------------------------------------------------------
 # Why Us Section
 --------------------------------------------------------------*/
@@ -3639,11 +3656,11 @@ section,
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-image img:hover {
+/* .about-image img:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
   
-}
+} */
 
 .about-text {
   flex: 1;
