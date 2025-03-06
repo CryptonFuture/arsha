@@ -83,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: var(--default-color);
   font-family: var(--heading-font);
 }
 
@@ -634,7 +634,7 @@ h6 {
 }
 
 .footer .footer-about a {
-  color: var(--heading-color);
+  color: var(--default-color);
   font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
