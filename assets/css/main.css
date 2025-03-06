@@ -3641,11 +3641,11 @@ section,
   padding-top: 50px;
 }
 
-.about-image {
+/* .about-image {
   flex: 1;
   text-align: left;
-  overflow: hidden; /* Hide overflow caused by larger image */
-}
+  overflow: hidden; 
+} */
 
 .about-image img {
   max-width: 600%
